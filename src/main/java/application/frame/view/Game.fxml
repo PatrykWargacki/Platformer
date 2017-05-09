@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane fx:controller="main.java.application.frame.GameController" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+	<children>
+    	<Canvas fx:id="background"	/>
+        <Canvas fx:id="game" 		/>
+        <Canvas fx:id="frontground" />
+        <Canvas fx:id="user" 		/>
+        <Canvas fx:id="effects" 	/>
+	</children>
+</AnchorPane>
